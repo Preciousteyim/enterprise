@@ -1,113 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reseau Expertis</title>
-     <link rel="stylesheet" href="style.css">
-</head>
+<html>
+    <head>
+        <title>My form</title>
+    </head>
 <body>
-     <nav>
-        <div class="icon">
-            <img src="icons8-group-task-16 (1) - Copy.png" width="100px" height="100px">
-        </div>
-        <div class="navigation">
-            <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Expirence</a></li>
-            <li><a href="#">Contact</a></li>
-            </ul>
-        </div> 
-    </nav>
-<!----Home section start--->
-<section class="home" id="home">
-    <h1>RESEAU<span>EXPERTIS</span></h1>
-    <h3>Fotso David</h3>
-    <p>Expert Comtaple-Associate Auditor</p>
-</section>
-  <!------About section start------>
-
-  <section class="about" id="about">
-   <div class="photo">
-       <img src="istec.jpg" alt="">
-   </div>
-
-   <div class="about-cont">
-       <h1>About Me</h1>
-       <h2>know more about me, my skills, and expirence</h2>
-       <p>i am <span>FOTSO DAVID</span>, an expert in charterred accounting, not only having a Master degree in Accounting, but also having an expiriences abroad, an the founder of "RESEAU EXPERTIS" and so many other firms in cameroon.</p>
-       <div class="link">
-           <a href="#">Read more</a>
-       </div>
-   </div>
-   </section>
-
-     <!------service section start------>
-
-<section class="service" id="service">
-    <div class="service-cont">
-        <b>Our Services</b>
-        <h1>Are you looking for Proffessional Accountants ?</h1>
-        <p>We offer client accounting and provide customised business solutions.</p>
-        <div class="link">
-            <a href="#">Request a quote</a>
-        </div>
-    </div>
-    <div class="slider-wrapper">
-        <div class="slider">
-            <img id="slide-1" src="img 1.jpg"/>
-            <img id="slide-2" src="img 2.jpg"/>
-            <img id="slide-3" src="img 3.jpg"/>
-        </div>
-    </div>
-    <div class="slider-nav">
-        <a href="#slide-1"></a>
-        <a href="#slide-2"></a>
-        <a href="#slide-3"></a>
-    </div>
-</section>
- <!------Expirience section start------>
-
- <section class="exprience" id="expirience">
-        
-    <h1>My Expiriences</h1><br>
-<h2>my Expirience and knowledge</h2>
-
-<div class="expirience-item">
-    <div class="expirience-list">
-        <h3>mathematics</h3>
-        <p>calculation is my lifestyle anything involving calculation im in.</p>
-    </div> 
-
-    <div class="expirience-list">
-        <h3>provisions</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde atque commodi quos repellat at, accusamus, dignissimos voluptate animi quidem nobis nam porro quia distinctio sed! Praesentium suscipit at provident cum!.</p>
-    </div>
-
-    <div class="expirience-list">
-        <h3>financial statement</h3>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque maxime commodi eligendi tempore velit debitis fuga delectus ullam voluptatibus dicta blanditiis maiores, nemo provident voluptas eos reprehenderit explicabo inventore dolores..</p>
-    </div>
-
-    <div class="expirience-list">
-        <h3>balance sheet</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci iusto voluptate quod pariatur tenetur quis voluptas illo est perspiciatis eum officia quas quae sed, obcaecati numquam. Sequi dicta explicabo nobis!.</p>
-    </div>
-
-    <div class="expirience-list">
-        <h3>charterred accounting</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum reiciendis similique vitae est vel fuga saepe modi aspernatur, excepturi ullam. Pariatur consequuntur debitis temporibus. Hic doloribus sunt eos vero dicta?.</p>
-    </div>
-
-    <div class="expirience-list">
-        <h3>book keeping</h3>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut quas exercitationem natus, dolores, assumenda nam magni illo libero nesciunt dolor mollitia dolorem suscipit harum. Facere id amet aspernatur! Officia, voluptatibus..</p>
-    </div>
-</div>
-    
-</section>
-
+    <form method="post">
+        <label for="fname">First Name</label>
+        <input type="text", name="fname",placeholder="Enter your First Name Here!" required><br>
+        <label for="email">E-mail</label>
+        <input type="email",name="email",placeholder="Enter your Email Here!" required><br>
+        <label for Password>Password</label> 
+        <input type="password", name="password", placeholder="Enter your password Here!"><br>
+        <button value="submit">Submit</button>
+        <button value="reset">cancel</button>
+    </form>
 </body>
 </html>  
